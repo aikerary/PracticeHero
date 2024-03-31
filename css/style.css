@@ -113,3 +113,36 @@ picture{
     color: var(--text-ligth);
     margin-top: 20px;
 }
+
+.first{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.first .one{
+    margin: 20px 40px;
+    max-width: 250px;
+}
+
+.first .one .iconone{
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary);
+}
+
+.first .one h2{
+    color: var(--text-black);
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.first .one p{
+    color: var(--text-black);
+    font-size: 1.5em;
+}
+
+.first .one >*{
+    margin-top: 20px;
+    text-wrap: wrap;
+}
