@@ -21,6 +21,12 @@ body{
     align-items: center;
 }
 
+picture{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -68,6 +74,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Get the background from ../assets/hero-bg.png */
+    background-image: url('../assets/img/hero-bg.png');
+    background-size: 100vw 800px;
 }
 
 .start >*{
