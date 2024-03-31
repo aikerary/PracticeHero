@@ -1,6 +1,7 @@
 /* Define a root with variables */
 :root{
     --text-ligth: #706b6b;
+    --primary: #7f82a2;
 }
 
 *{
@@ -49,4 +50,15 @@ body{
 .header .navbar ul li a span{
     position: absolute;
     transform: rotate(90deg);
+}
+
+.header .btn{
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: var(--primary);
+    /* Que tan gorda es la letra */
+    font-weight: 700;
+    font-size: 1.6em;
+    border-radius: 5px;
 }
