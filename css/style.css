@@ -1,5 +1,6 @@
 /* Define a root with variables */
 :root{
+    --text-black:rgb(53, 53, 53);
     --text-ligth: #706b6b;
     --primary: #7f82a2;
 }
@@ -51,8 +52,7 @@ body{
     position: absolute;
     transform: rotate(90deg);
 }
-
-.header .btn{
+.btn{
     border: none;
     padding: 10px 30px;
     color: white;
@@ -61,4 +61,46 @@ body{
     font-weight: 700;
     font-size: 1.6em;
     border-radius: 5px;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start >*{
+    margin-top: 50px;
+}
+
+.start .imgstart{
+    max-width: 600px;
+}
+
+.start .startbtns{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.btn.start{
+    background-color: white;
+    color:var(--text-black);
+}
+
+.start .welcome{
+    font-size: 5em;
+    font-weight: 100;
+    color: var(--text-black);
+}
+
+.start .welcome span{
+    color: var(--primary);
+}
+
+.start .startdescription{
+    font-size: 2em;
+    color: var(--text-ligth);
+    margin-top: 20px;
 }
