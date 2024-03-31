@@ -3,6 +3,7 @@
     --text-black:rgb(53, 53, 53);
     --text-ligth: #706b6b;
     --primary: #7f82a2;
+    --footer:rgb(60, 60, 91);
 }
 
 *{
@@ -299,4 +300,46 @@ picture{
 .team .teamcards #team3{
     background-image: url('../assets/img/team/team-3.jpg');
     background-size: cover;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--footer);
+    width: 100vw;
+    padding:45px 0;
+    color: white;
+}
+
+.footer .mediaicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .mediaicons .mediaicon{
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--text-ligth);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3{
+    font-size: 1.5em;
+}
+
+.footer p{
+    margin-top: 15px;
+    font-size: 1.4em;
+}
+
+.footer p span{
+    color: lightblue;
 }
